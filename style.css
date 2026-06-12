@@ -1,1 +1,110 @@
 
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Produtos */
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: #e8f5e9;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2e7d32;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2e7d32;
+    color: white;
+}
